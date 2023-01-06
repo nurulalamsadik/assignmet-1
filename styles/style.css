@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+}
+.introduction{
+    position: absolute;
+    width: 150px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 400;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+
+}
+
