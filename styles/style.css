@@ -47,10 +47,10 @@ body{
     text-align: center;
     cursor: pointer;
 }
-/* .header-text h1{
+.header-text h1{
     font-size: 60px;
     padding: 10px 40px;
-} */
+}
 .donation-area{
     width: 100%;
     height: 570px;
