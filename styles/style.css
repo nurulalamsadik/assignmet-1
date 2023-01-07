@@ -29,14 +29,23 @@ body{
     text-align: right;
     
 }
-.hlf-size img{
-    width: 90%;
+.failed{
+    display: flex;
+    background-position: right;
+    background-repeat: no-repeat;
+    border: 0;
+    margin: 0;
+    
 }
+.failed-size img{
+    width: 60%;
 
+
+}
 .button{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: 600;
     text-decoration: none;
     outline: 0;
@@ -51,70 +60,7 @@ body{
     font-size: 60px;
     padding: 10px 40px;
 }
-.donation-area{
-    width: 100%;
-    height: 570px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-.donation-detail{
-    height: 40%;
-    width: 100%;
-}
-.donation-detail h1{
-    font-size: 50px;
-    padding: 30px 40px 10px;
-}
-.btn-group{
-    height: 20%;
-    width: 100%;
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-.donation-submit{
-    height: 20%;
-    width: 100%;
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0;
 
-}
-.btn-group button{
-    background-color: rgba(202, 202, 202, 0.37);
-    background-size: 100%;
-    color: grey;
-    font-size: 20px;    font-weight: 600;
-    height: 85px;
-    width: 90px;
-    border: 1px solid rgba(202, 202, 202, 0.37);
-    border-radius: 4px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 5px;
-    margin-left: 5px;
-    cursor: pointer;
-}
-.btn-group button:hover{
-    background-color: #ff6e6146;
-    border: 2px solid salmon;
-    color: #ff6f61;
-}
-#other-amount{
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin-right: 25%;
-    margin-left: 25%;
-    padding: 0px 40px 0px;
-    width: 620px;
-    display: block;
-    border: none;
-    border-bottom: 2px solid gray;
-    font-family: 'Poppins', sans-serif;
-}
 .my-plan{
     height: 400px;
     text-align: center;
@@ -151,84 +97,7 @@ body{
 .action-sec{
     margin-top: 60px;
 }
-.volunteer{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation10.jpg);
-    margin-left: 300px;
-    margin-right: 100px;
-    margin-bottom: 200px;
-    padding: 0;
-    width: 55%;
-    height: 300px;
-    padding-top: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    border-radius: 25px;
-}
-.volunteer h1{
-    font-size: 40px;
-    padding: 0px 0px 30px;
-}
-.subscription{
-    height: 400px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 150px;
-    
-}
-.subscription h1{
-    font-size: 35px;
-    padding: 25px 0px;
-}
-.email-box{
-    margin-top: 40px;
-    margin-left: 280px;
-    height: 150px;
-    width: 40%;
-    padding: 90px 0px 0px 250px;
-    background-color: #ff6e613a;
-    border-radius: 5px;
-    display: flex;
-}
-.email-insert{
-    font-family: 'Poppins', sans-serif;
-    border: 1px solid rgba(0, 0, 0, 0.212);
-    background-color: rgba(0, 0, 0, 0.212);
-    color: white;
-    height: 30px;
-    padding-left: 5px;
-    width: 170px;
-    border-radius: 4px 0px 0px 4px;
-    
-}
-.sub-button{
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    color: white;
-    padding: 1px 2px;
-    text-decoration: none;
-    font-weight: 500;
-    cursor: pointer;
-    text-align: center;
-    background-color: #04AA6D;
-    border: solid #04AA6D;
-    height: 24px;
-    width: 90px;
-    border-radius: 0px 4px 4px 0px;
-    
-}
-.food{
-    background-color: rgba(0, 0, 255, 0.205);
-}
-.shelter{
-    background-color: rgba(255, 0, 0, 0.205);
-}
-.education{
-    background-color: rgba(255, 68, 0, 0.205);
-}
+
 .footer{
     position: absolute;
     width: 100%;
