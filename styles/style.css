@@ -124,27 +124,32 @@ body{
     box-sizing: border-box;
     display: block;
 }
-.donation-plan h1{
+.plans-text h2{
     padding: 20px 0px 20px;
-    font-size: 40px;
     
 }
-.food-shelter-education{
+.plans-box{
     display: flex;
-    text-align: left;
-    padding: 50px 0px 0px;
-    height: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.plans-text{
+    text-align: center;
     
 }
-.fse{
-    border: 1px solid rgb(255, 255, 255);
-    height: 200px;
-    width: 25%;
-    margin-top: 20px;
-    margin-left: 45px;
-    margin-right: 45px;
-    padding: 10px;
-    border-radius: 8px;
+.action{
+    background-image: linear-gradient(rgba(156, 28, 28, 0.205), rgba(247, 69, 69, 0.5)), url(../images/watch.png);
+    text-align: left;
+    padding: 40px;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    color:white;
+
+
+}
+.action-sec{
+    margin-top: 60px;
 }
 .volunteer{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/donation10.jpg);
@@ -225,11 +230,20 @@ body{
     background-color: rgba(255, 68, 0, 0.205);
 }
 .footer{
-    margin: 0;
-    height: 100px;
-    padding: 35px 0px 0px;
+    position: absolute;
+    width: 100%;
+    height: 250px;
     background-color: rgb(0, 0, 20);
-    text-align: center;
+    text-align: left;
     color: white;
-    font-family: 'Arima', cursive;
+    display: flex;
+    justify-content: space-around;
+    padding: 45px;
+}
+.subscribe{
+    width: 50%;
+
+}
+.footer-text{
+    width: 50%;
 }
